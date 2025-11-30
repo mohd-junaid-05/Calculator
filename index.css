@@ -1,0 +1,35 @@
+.heading{
+    font-family: "roboto";
+    color: aqua;
+}
+
+.header-element{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f0f8ff;
+}
+.main-container{
+    background-color: #EFECE3;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.cal-card{
+    background-color:#8FABD4;
+    height: 40vh;
+    width: 70vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.input-E1{
+    height: 10vh;
+    
+    width: 5vh;
+    padding: 10px;
+    background-color: blue;
+
+    
+}
