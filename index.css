@@ -12,24 +12,27 @@
 .main-container{
     background-color: #222b5a;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: linear-gradient(#0b1729,#1c355a,#0b1729);
 }
 .card-container{
     background-color:#fffcfce7;
-    height: 80vh;
-    width: 65vh;
+    height: 90%;
+    width: 50%;
     padding: 20px;
     border-radius: 10px;
+}
+.width-cal{
+    width: 80%;
 }
 
 .input-element{
     background: linear-gradient(#4c6a97,#214274);
     height: 10vh;
-    width: 10vh;
+    width: 20%;
     border-radius: 10px;
-    padding: 10px;
+    padding: auto;
     margin: 10px;
     color: white;
     font-family:  'Arial Narrow Bold';
@@ -40,9 +43,9 @@
 .input-elementc{
     background: linear-gradient(#c25f5f,#721515);
     height: 10vh;
-    width: 10vh;
+    width: 20%;
     border-radius: 10px;
-    padding: 10px;
+    padding: auto;
     margin: 10px;
     color: white;
     font-family:  'Arial Narrow Bold',;
@@ -53,15 +56,15 @@
 .input-element1{
     background: linear-gradient(#4c6a97,#214274);
     height: 10vh;
-    width: 23.2vh;
+    width: 40.5%;
     border-radius: 10px;
-    padding: 10px;
+    padding: auto;
     margin: 10px;
     color: white;
     font-family:  'Arial Narrow Bold';
     font-weight: bolder;
     font-size: 25px;
-    border: 0px;
+    border: 3px;
 }
 .input-E1{
     border: 0px;
@@ -69,5 +72,5 @@
     font-size: 30px;
     height: 10vh;
     font-weight: bold;
-    
+
 }
