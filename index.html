@@ -26,8 +26,40 @@
             text-align: center;
             background-color: #EFECE3;">CALCULATOR</h1>
             <div class="main-container d-flex flex-row justify-content-center " style="padding: 30px;">
-                <div class="cal-card">
-                    <input class="form-control input-E1"/>
+                <div class="output">
+                    <input class="form-control input-E1" name="output" type="text" style="background-color: transparent;"/>
+                    <div class="d-flex flex-column justify-content-center p-auto">
+                        <div class="d-flex flex-row m-auto">
+                            <input type="button" name="icon" value="C" class="input-element" onclick="name.value = ' ' "/>
+                            <input type="button" name="icon" value="AC" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="%" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="X" class="input-element" onclick="name.value = ' '"/>
+                        </div>
+                        <div class="d-flex flex-row m-auto">
+                            <input type="button" name="icon" value="7" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="8" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="9" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="/" class="input-element" onclick="name.value = ' '"/>
+                        </div>
+                        <div class="d-flex flex-row m-auto">
+                            <input type="button" name="icon" value="4" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="5" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="6" class="input-element" onclick="name.value = ' '"/>
+                            <input type="button" name="icon" value="-" class="input-element" onclick="name.value = ' '"/>
+                        </div>
+                        <div class="d-flex flex-row m-auto">
+                            <input type="button" name="icon" value="1" class="input-element"/>
+                            <input type="button" name="icon" value="2" class="input-element"/>
+                            <input type="button" name="icon" value="3" class="input-element"/>
+                            <input type="button" name="icon" value="+" class="input-element"/>
+                        </div>
+                        <div class="d-flex flex-row m-auto">
+                            <input type="button" name="icon" value="." class="input-element"/>
+                            <input type="button" name="icon" value="0" class="input-element"/>
+                            <input type="button" name="icon" value="=" class="input-element1"/>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         

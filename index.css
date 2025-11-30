@@ -15,21 +15,37 @@
     height: 100vh;
     width: 100%;
 }
-.cal-card{
+.output{
     background-color:#8FABD4;
-    height: 40vh;
+    height: 80vh;
     width: 70vh;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
 }
 
-
-.input-E1{
+.input-element{
+    background-color: #4A70A9;
     height: 10vh;
-    
-    width: 5vh;
+    width: 10vh;
+    border-radius: 10px;
     padding: 10px;
-    background-color: blue;
-
-    
+    margin: 10px;
+    color: white;
+    font-family:  'Times New Roman';
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0px;
+}
+.input-element1{
+    background-color: #4A70A9;
+    height: 10vh;
+    width: 23vh;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-family:  'Times New Roman';
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0px;
 }
