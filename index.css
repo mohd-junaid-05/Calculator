@@ -1,3 +1,17 @@
+.bg-container{
+    background-color: #3ce7df;
+    background-image: url("https://i.pinimg.com/originals/14/74/89/14748961d5c979e3cdda1b70d766ea6d.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
 .heading{
     font-family: "roboto";
     color: aqua;
@@ -11,15 +25,15 @@
 }
 
 .main-container{
-    background-color: #222b5a;
+
     background-size: cover;
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(#000000,#08111f,#182d4d,#08111f,#000000);
+
 }
 
 .card-container{
-    background-color:#cacacae7;
+    background-color:#9d9e9ec5;
     
     max-width: 480px;   
     width: 100%;
@@ -28,7 +42,7 @@
 }
 
 .input-element{
-    background: linear-gradient(#4c6a97,#214274);
+    background: linear-gradient(#111213,#2b2d30);
     height: 70px;              
     border-radius: 10px;
     margin: 10px;
@@ -40,7 +54,7 @@
 }
 
 .input-elementc{
-    background: linear-gradient(#c25f5f,#721515);
+    background: linear-gradient(#db4242,#660c0c);
     height: 70px;             
     border-radius: 10px;
     margin: 10px;
@@ -52,7 +66,7 @@
 }
 
 .input-element1{
-    background: linear-gradient(#4c6a97,#214274);
+    background: linear-gradient(#111213,#2b2d30);
     height: 70px;             
     border-radius: 10px;
     margin: 10px;
